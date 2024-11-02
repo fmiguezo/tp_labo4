@@ -33,13 +33,18 @@ nav a {
 
 .fitter {
   padding: 2.5rem;
-  border: #1d1d2d 3px solid;
-  height: fit-content;
-  width: fit-content;
+  border: rgba(255, 255, 255, 50%) 20px solid;
+
   margin: 1rem auto;
 }
 
 .carousel-image {
   height: 85vh;
-  border: #1d1d2d 3px solid;
+  border: rgba(255, 255, 255, 50%) 10px solid;
+}
+
+.divider {
+  height: 40px;
+  background-color: white;
+  border: none;
 }
