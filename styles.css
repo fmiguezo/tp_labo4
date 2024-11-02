@@ -56,4 +56,16 @@ nav a {
 
 .cards {
   margin-bottom: 2rem;
+  border: rgba(255, 255, 255, 50%) 10px solid;
+  padding: 2rem;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  padding: 2rem 2rem 1rem 0;
+  text-align: center;
+  font-family: "Oswald", Arial, sans-serif;
+  font-style: italic;
+  text-align: end;
 }
