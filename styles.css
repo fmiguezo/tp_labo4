@@ -9,13 +9,37 @@
 body {
   background-image: url("./img/bauhaus-pattern.jpg");
   font-family: "Staatliches", "Oswald", Arial, sans-serif;
+  padding-top: 2rem;
 }
 
-.carousel {
-  margin: 2vw;
-  border: #fbf8f8 3px solid;
+nav li,
+nav a {
+  padding-left: 2rem;
 }
 
-.carousel .img {
-  height: 80vh;
+.fixed-top {
+  margin-bottom: 4rem;
+}
+
+.container-content {
+  margin-top: 2rem;
+}
+
+.container-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fitter {
+  padding: 2.5rem;
+  border: #1d1d2d 3px solid;
+  height: fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.carousel-image {
+  height: 85vh;
+  border: #1d1d2d 3px solid;
 }
