@@ -48,3 +48,12 @@ nav a {
   background-color: white;
   border: none;
 }
+
+.card {
+  border: rgba(255, 255, 255, 50%) 5px solid;
+  border-radius: 0;
+}
+
+.cards {
+  margin-bottom: 2rem;
+}
