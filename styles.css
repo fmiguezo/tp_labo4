@@ -17,30 +17,25 @@ nav a {
   padding-left: 2rem;
 }
 
-.fixed-top {
-  margin-bottom: 4rem;
-}
-
 .container-content {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .container-carousel {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-top: 0;
 }
 
-.fitter {
-  padding: 2.5rem;
-  border: rgba(255, 255, 255, 50%) 20px solid;
-
-  margin: 1rem auto;
+.carousel {
+  max-height: 99vh;
+  overflow: hidden;
+  background-color: rgba(29, 29, 45, 60%);
 }
 
-.carousel-image {
-  height: 85vh;
-  border: rgba(255, 255, 255, 50%) 10px solid;
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  max-height: 99vh;
+  object-fit: scale-down;
 }
 
 .divider {
@@ -49,15 +44,14 @@ nav a {
   border: none;
 }
 
+.authors {
+  padding: 0 2rem 1rem 2rem;
+  text-align: center;
+}
+
 .card {
   border: rgba(255, 255, 255, 50%) 5px solid;
   border-radius: 0;
-}
-
-.cards {
-  margin-bottom: 2rem;
-  border: rgba(255, 255, 255, 50%) 10px solid;
-  padding: 2rem;
 }
 
 footer {
