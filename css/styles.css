@@ -69,6 +69,19 @@ nav a {
   border-radius: 0;
 }
 
+.card-title a,
+.card-title:visited,
+.collapse-content a,
+.collapse-content:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.card-title a:hover,
+.collapse-content a:hover {
+  color: rgb(235, 84, 36);
+}
+
 .collapse-content {
   display: none;
 }
