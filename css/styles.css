@@ -84,6 +84,11 @@ nav a {
 
 .collapse-content {
   display: none;
+  padding: 0.5rem;
+}
+
+.collapse-content a {
+  display: block;
 }
 
 footer {
