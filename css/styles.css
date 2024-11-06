@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("./img/bauhaus-pattern.jpg");
+  background-image: url("../img/bauhaus-pattern.jpg");
   font-family: "Staatliches", "Oswald", Arial, sans-serif;
   padding-top: 2rem;
 }
@@ -52,6 +52,10 @@ nav a {
 .card {
   border: rgba(255, 255, 255, 50%) 5px solid;
   border-radius: 0;
+}
+
+.collapse-content {
+  display: none;
 }
 
 footer {
