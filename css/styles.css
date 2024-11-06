@@ -38,6 +38,17 @@ nav a {
   object-fit: scale-down;
 }
 
+.carousel-caption {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  background-color: rgba(29, 29, 45, 60%);
+  max-width: fit-content;
+}
+
 .divider {
   height: 40px;
   background-color: white;
@@ -47,6 +58,8 @@ nav a {
 .authors {
   padding: 0 2rem 1rem 2rem;
   text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .card {
