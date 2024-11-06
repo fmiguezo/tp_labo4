@@ -27,15 +27,15 @@ nav a {
 
 .carousel {
   max-height: 99vh;
+  height: min-content;
   overflow: hidden;
   background-color: rgba(29, 29, 45, 60%);
 }
 
 .carousel-item img {
-  width: 100%;
-  height: auto;
   max-height: 99vh;
-  object-fit: scale-down;
+  height: auto;
+  object-fit: contain;
 }
 
 .carousel-caption {
